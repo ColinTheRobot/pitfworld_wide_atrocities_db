@@ -9,7 +9,7 @@ gem 'spring', :group => :development
 gem 'mongo'
 gem 'mongo_mapper'
 gem 'bson_ext'
-
+gem 'smarter_csv'
 gem 'grape'
 
 group :development do
