@@ -6,9 +6,15 @@ gem 'rails', '4.1.1'
 gem 'rails-api'
 
 gem 'spring', :group => :development
-
+gem 'mongo'
 gem 'mongo_mapper'
 gem 'bson_ext'
+
+gem 'grape'
+
+group :development do
+  gem 'pry-rails', '~> 0.3.2'
+end
 
 
 
